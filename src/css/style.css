@@ -51,7 +51,7 @@ body {
     font-size: 18px;
     border: 1px solid #333333;
 }
-.form button {
+.btn {
     font-size: 18px;
     font-weight: 900;
     color: #FFF;
@@ -59,5 +59,21 @@ body {
     border: none;
     width: 300px;
     height: 60px;
-    margin-top: 11px;
+    display: block;
+    margin: 11px auto;
+}
+.col{
+    display: inline-block;
+    text-align: center;
+    margin: 10px 35px;
+}
+.feature-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+}
+.feature {
+    margin: 60px auto;
+    text-align: center;
 }
